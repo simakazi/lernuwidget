@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/LernuWidget" >
+        <file>Resources/out.txt</file>
+        <file>Resources/switch.png</file>
+    </qresource>
+</RCC>

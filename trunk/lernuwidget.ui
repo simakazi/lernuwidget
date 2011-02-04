@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LernuWidgetClass</class>
+ <widget class="QMainWindow" name="LernuWidgetClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lernu!: widget</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineWord">
+      <property name="toolTip">
+       <string>You can use * and ? to replace many or one character in a string.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0,0">
+      <item>
+       <widget class="QComboBox" name="listLang"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSwitch">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="lernuwidget.qrc">
+          <normaloff>:/LernuWidget/Resources/switch.png</normaloff>:/LernuWidget/Resources/switch.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnTranslate">
+        <property name="text">
+         <string>Ek!</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="textResult"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="lernuwidget.qrc"/>
+ </resources>
+ <connections/>
+</ui>
